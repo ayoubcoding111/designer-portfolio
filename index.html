@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahdi | Graphic Designer</title>
+<meta name="description" content="Mahdi is a graphic designer making brand identities, posters and packaging people remember.">
+<meta name="theme-color" content="#f5f5f4">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mahdi | Graphic Designer">
+<meta property="og:description" content="Brand identities, posters and packaging people remember.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23f54900'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%231c1917' stroke-width='9'/%3E%3Ccircle cx='50' cy='50' r='9' fill='%231c1917'/%3E%3Cpath d='M50 12v76M12 50h76' stroke='%231c1917' stroke-width='9'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip mono" href="#main" data-i18n="skip">Skip to content</a>
+
+<!-- LOADER: orange sheet that wipes away column by column -->
+<div class="loader" data-loader aria-hidden="true">
+  <div class="loader__cols"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="loader__shadow"></div>
+  <div class="loader__ball"><div class="loader__face"><svg viewBox="0 0 100 100"><use href="#reg"/></svg></div></div>
+</div>
+
+<!-- HEADER -->
+<header class="hdr" data-hdr>
+  <a class="hdr__logo" href="#top" aria-label="Mahdi, back to top">Mahdi</a>
+  <p class="hdr__loc mono"><span data-i18n="loc1">Based in Algeria</span><br><span data-i18n="loc2">Working worldwide</span> (<span data-clock>12:00</span> GMT+1)</p>
+  <p class="hdr__status mono"><i class="dot"></i><span data-i18n="available">Available</span></p>
+  <div class="hdr__right mono">
+    <button class="hdr__lang" data-lang type="button" aria-label="Switch language"><span data-l="en">EN</span> / <span data-l="fr">FR</span></button>
+    <button class="hdr__menu" data-menu-btn type="button" aria-expanded="false"><span class="hdr__menu-a" data-i18n="menu">Menu</span><span class="hdr__menu-b" data-i18n="close">Close</span></button>
+  </div>
+</header>
+
+<!-- MENU -->
+<div class="menu" data-menu aria-hidden="true">
+  <nav class="menu__nav">
+    <a href="#top" data-i18n="m_home">Home</a>
+    <a href="#work" data-i18n="m_work">Work</a>
+    <a href="#hello" data-i18n="m_about">About</a>
+    <a href="#contact" data-i18n="m_contact">Contact</a>
+  </nav>
+  <div class="menu__side">
+    <p class="mono menu__lbl" data-i18n="write">Write to</p>
+    <a href="mailto:hello@mahdi.design">hello@mahdi.design</a>
+    <p class="mono menu__lbl" data-i18n="socials">Socials</p>
+    <a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Behance</a><a href="#">Dribbble</a>
+  </div>
+  <p class="menu__copy mono" data-i18n="rights">© 2026 Mahdi. All rights reserved.</p>
+</div>
+
+<!-- FIXED CHROME -->
+<div class="grid" data-grid aria-hidden="true">
+  <div class="grid__nums mono"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span></div>
+</div>
+<div class="grain" aria-hidden="true"></div>
+<div class="blurband" aria-hidden="true"></div>
+<div class="sys mono">
+  <button class="sys__eye" data-sys type="button" aria-pressed="false" aria-label="Show the grid">
+    <svg viewBox="0 0 24 24"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.6"/></svg>
+  </button>
+  <span class="sys__label" data-i18n="system">See the grid</span>
+</div>
+<div class="progress" aria-hidden="true"><i data-progress></i></div>
+<div class="cursor mono" data-cursor aria-hidden="true">[ <span data-i18n="view">View project</span> ]</div>
+
+<main class="page" id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <h1 class="hero__h" aria-label="Look. Recall. Pass it on.">
+      <span class="hl hl--1"><span class="hl__in" data-i18n="h1">Look.</span></span>
+      <span class="hl hl--2"><span class="hl__in" data-i18n="h2">Recall.</span></span>
+      <span class="hl hl--3"><span class="hl__in"><span data-i18n="h3a">Pass&nbsp;</span><span class="u" data-i18n="h3b">it on.</span></span></span>
+    </h1>
+    <svg class="scribble" data-scribble viewBox="0 0 520 44" preserveAspectRatio="none" aria-hidden="true"><path d="M6 14 C 120 4, 330 2, 512 10 C 420 9, 240 12, 160 20 C 120 24, 140 32, 210 33 C 300 35, 380 30, 392 27"/></svg>
+    <!-- Hero image slots: photos listed in js/main.js (HERO_PICS) -->
+    <div class="slot slot--a" data-slot="4,0,2" data-case></div>
+    <div class="slot slot--b" data-slot="1,3,5" data-case></div>
+    <div class="slot slot--c" data-slot="5,2,0" data-case></div>
+    <p class="hero__p" data-i18n="hero_p">I design identities, posters and packaging that people remember. The rest is craft, and craft is the part I enjoy.</p>
+    <p class="hero__scroll mono" data-i18n="scroll">Scroll.</p>
+  </section>
+
+  <!-- 01 INTRO -->
+  <section class="hello" id="hello">
+    <p class="label mono"><span class="n">01</span><span data-i18n="l1">Intro</span></p>
+    <h2 class="hello__h" data-words data-i18n="hello_h">Every project starts as a sketch on paper and ends up out in the world.</h2>
+    <div class="stage" data-stage>
+      <svg viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true">
+        <polygon class="stage__fill" data-fill points="1152,286 1126,106 1229,92 1255,271"/>
+        <path class="stage__pen stage__pen--2" data-pen2 d=""/>
+        <path class="stage__pen" data-pen d=""/>
+        <circle class="stage__tip" data-tip r="4.5" cx="0" cy="0"/>
+      </svg>
+      <span class="stage__lbl mono" style="left:19.8rem" data-i18n="obj1">A poster on a wall</span>
+      <span class="stage__lbl mono" style="left:68.5rem" data-i18n="obj2">A box on a shelf</span>
+      <span class="stage__lbl mono" style="left:107.4rem" data-i18n="obj3">A card in a hand</span>
+    </div>
+    <div class="hello__txt">
+      <p class="hello__intro" data-reveal data-i18n="hello_intro">I'm Mahdi. I design brand identities and everything they live on, then I make the files myself: print-ready, shelf-ready, screen-ready.</p>
+      <p class="hello__sub" data-reveal data-i18n="hello_sub">If it has to work on a billboard and on a business card, that's the kind of problem I like.</p>
+    </div>
+  </section>
+
+  <!-- 02 WORK -->
+  <section class="work" id="work">
+    <p class="label mono"><span class="n">02</span><span data-i18n="l2">Selected work</span></p>
+    <div class="stack">
+      <!-- Project pictures are free-licensed stand-in photos (see CREDITS.md). Swap the <img> for real work and edit the text. -->
+      <article class="card" style="--i:0">
+        <div class="card__head"><h3 class="card__t">Identity System</h3><p class="card__d" data-i18n="d1">Brand identity. Stationery, cards and one orange that carries the whole brand.</p></div>
+        <a class="card__img" href="#" data-case><img class="art" src="images/work-identity.jpg" alt="Brand identity on letterhead and business cards with an orange accent" loading="lazy" decoding="async"></a>
+      </article>
+      <article class="card" style="--i:1">
+        <div class="card__head"><h3 class="card__t">City Billboards</h3><p class="card__d" data-i18n="d2">Poster campaign. Large formats built to be read from across the street.</p></div>
+        <a class="card__img" href="#" data-case><div class="art art--photo"><div class="ph-box" style="--ar:1.6"><img src="images/work-billboard.jpg" alt="A large orange poster reading Look again on a billboard between city buildings" loading="lazy" decoding="async" style="object-position:50% 18%"><div class="bb-poster" aria-hidden="true"><div class="bb-poster__in"><span class="bb-poster__k">Look<br>again.</span><span class="bb-poster__foot mono"><b>Mahdi</b><b>Poster series 01</b></span></div></div></div></div></a>
+      </article>
+      <article class="card" style="--i:2">
+        <div class="card__head"><h3 class="card__t">Kraft Box</h3><p class="card__d" data-i18n="d3">Packaging. A plain kraft box that opens like a gift.</p></div>
+        <a class="card__img" href="#" data-case><img class="art" src="images/work-packaging.jpg" alt="A kraft paper box with its lid open" loading="lazy" decoding="async"></a>
+      </article>
+    </div>
+    <a class="all" href="#"><span data-words data-i18n="all">See all projects</span><svg viewBox="0 0 34 24" aria-hidden="true"><path d="M1 12h31M21 1l11 11-11 11"/></svg></a>
+  </section>
+
+  <!-- 03 DETAILS -->
+  <section class="details" id="details">
+    <p class="label mono"><span class="n">03</span><span data-i18n="l3">The details</span></p>
+    <p class="details__a" data-words data-i18n="det_a">I lose sleep over the</p>
+    <div class="kern" data-kern aria-label="spacing">
+      <span>s</span><span>p</span><span>a</span><span class="o">c</span><span>i</span><span>n</span><span>g</span>
+    </div>
+    <div class="guides" data-guides aria-hidden="true"></div>
+    <p class="details__hint mono" data-kern-msg aria-live="polite">Go on. Move a letter.</p>
+    <button class="details__mess mono" data-mess type="button"><span data-i18n="mess">Scramble it</span></button>
+    <button class="details__show mono" data-show type="button"><span data-i18n="show">Show the guides</span></button>
+    <p class="details__b" data-words data-i18n="det_b">so nobody else has to.</p>
+  </section>
+</main>
+
+<!-- FOOTER (its content rises from under the page) -->
+<footer class="foot" id="contact" data-foot>
+ <div class="foot__in" data-foot-in>
+  <div class="foot__top">
+    <a class="foot__talk" href="mailto:hello@mahdi.design"><span data-i18n="talk">Let's talk</span> <svg viewBox="0 0 34 24" aria-hidden="true"><path d="M1 12h31M21 1l11 11-11 11"/></svg><svg class="talk-line" viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M4 16 C 70 7, 190 6, 296 12 C 230 15, 150 19, 70 25"/></svg></a>
+    <nav class="foot__links">
+      <span class="copy"><a href="mailto:hello@mahdi.design" data-copy-email="hello@mahdi.design">hello@mahdi.design</a><span class="copy__msg mono" data-copy-msg aria-live="polite"></span></span><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Behance</a><a href="#">Dribbble</a>
+    </nav>
+  </div>
+  <div class="foot__big" data-big>
+    <p><span data-i18n="f1">Hello.</span></p>
+    <p><span data-i18n="f2">Send the brief.</span></p>
+    <p><span data-i18n="f3">And I'll make it stick.</span></p>
+  </div>
+  <div class="badges" data-badges aria-hidden="true"></div>
+  <div class="foot__bar mono"><span data-i18n="rights">© 2026 Mahdi. All rights reserved.</span><a href="#top" data-top><span data-i18n="top">Back to the top</span> ↑</a></div>
+ </div>
+</footer>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- registration mark: the badge used across the site -->
+    <symbol id="reg" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="26" fill="none" stroke="currentColor" stroke-width="10"/>
+      <circle cx="50" cy="50" r="11" fill="currentColor"/>
+      <path d="M50 6v88M6 50h88" stroke="currentColor" stroke-width="10" stroke-linecap="square"/>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
