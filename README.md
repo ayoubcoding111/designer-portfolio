@@ -4,6 +4,26 @@ A one-page portfolio site. It's plain HTML, CSS and JavaScript with GSAP, Scroll
 
 The pencil sketch, the trees, the stamps and the textures are drawn in code. The project and hero pictures are free-licensed **stand-in photos** in `images/` (credited in `CREDITS.md`) to swap for real work (see below).
 
+![A 5.6-second scroll through the site: the hero, the pencil sketch, the work cards, the details section and the footer stamps](docs/preview.gif)
+
+The same clip as an MP4 (1280 × 800, 60 fps): [docs/designer-portfolio.mp4](docs/designer-portfolio.mp4)
+
+## Screenshots
+
+![Hero: LOOK. RECALL. PASS IT ON. with three changing picture slots](docs/screenshots/01-hero.jpg)
+
+| Intro: the pencil sketch | Work cards |
+|---|---|
+| ![The pencil sketch drawing itself](docs/screenshots/02-intro.jpg) | ![The Identity System card](docs/screenshots/03-work.jpg) |
+| **City Billboards** | **The details** |
+| ![The LOOK AGAIN poster on a city billboard](docs/screenshots/04-billboard.jpg) | ![The word spacing closing up, with one orange letter](docs/screenshots/05-details.jpg) |
+
+![Footer: stamps fall onto HELLO. SEND THE BRIEF. AND I'LL MAKE IT STICK.](docs/screenshots/06-footer.jpg)
+
+On a phone:
+
+![The hero, a work card and the footer on a phone](docs/screenshots/07-mobile.jpg)
+
 ## Run it locally
 
 Serve this folder with any static server, for example:
